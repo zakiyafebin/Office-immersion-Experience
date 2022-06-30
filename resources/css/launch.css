@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    /* background: purple;
+    background: linear-gradient(to right, purple, #8306b9, purple , purple); */
+    background-image: url(../images/accentureBg.jpg);
+
+    font-family: roboto;
+
+}
+.dispLogo{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.dispLogo img{
+    padding: 2rem;
+    width: 20%;
+}
+
+.location{
+    /* display: flex;
+    justify-content: center; */
+    width: 500px;
+    
+}
+.locationLbl{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.backToOffice img{
+    width: 500px;
+    margin-top: 1rem;
+    border-radius: 16px;
+
+}
+.btnLaunch{
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+
+.btnLaunch{
+    background-color: rgb(242, 227, 242);
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+
+
+
+@media only screen and (max-width: 510px){
+    .form{
+        display: block;
+        padding: 1rem;
+    }
+    
+    .location{
+        width: 100%;
+    }
+    .backToOffice img{
+        width:100% ;
+    }
+
+}
+
+

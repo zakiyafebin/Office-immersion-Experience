@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.container{
+    margin: auto;
+    /* display: block; */
+    width: 450px;
+
+    border-radius: 20px;
+    background-image: url(../images/accentureBg.jpg);
+
+    font-family: roboto;
+    padding: 2rem;
+    
+    
+}
+

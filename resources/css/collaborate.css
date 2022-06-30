@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/accentureBg.jpg);
+    /* background-color: white; */
+    font-family: roboto;
+    margin-top: 2rem;
+}
+.container{
+    margin: auto;
+    /* display: block; */
+    width: 450px;
+
+    border-radius: 20px;
+    background-image: url(../images/accentureBg.jpg);
+
+    font-family: roboto;
+    padding: 2rem;    
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+
+
+}
+.btn{
+    margin: 2rem;
+    text-align: center;
+}
+.btn button{
+    background-color: rgb(242, 227, 242);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: .6rem 1rem;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------ */
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin: 2rem  1rem;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 90%;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 20px;
+}
+.img3d{
+    width: 100%;
+    
+}
+.img3d img{
+    width: 100%;
+}
+
+/* --------------------------------------------- */
+
+.search input{
+    
+
+}
+

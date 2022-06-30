@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body{
+    
+    /* background: purple;
+    /* background: linear-gradient(to right, purple, #8306b9, purple , purple); */ 
+    background-image: url(../images/accentureBg.jpg);
+}
+
+.container{
+    margin: auto;
+    /* display: block; */
+    width: 450px;
+
+    border-radius: 20px;
+    background-image: url(../images/accentureBg.jpg);
+
+    font-family: roboto;
+    padding: 2rem;    
+}
+
+.dispLogo{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.dispLogo img{
+    width: 20%;
+    /*  */
+    padding: 2rem;
+}
+.appName{
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.loginLabel{
+    font-family: roboto;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loginLabel p{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.login{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+
+.login input{
+    background-color: white;
+    /* width: 40%; */
+}
+.forgotpswd a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.btnLaunch{
+    background-color: rgb(242, 227, 242);
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+
+@media only screen and (min-width: 325px) and (max-width: 500px){
+
+    
+}

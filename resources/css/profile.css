@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/accentureBg.jpg);
+}
+.container{
+    margin: auto;
+    /* display: block; */
+    width: 450px;
+
+    border-radius: 20px;
+    background-image: url(../images/accentureBg.jpg);
+
+    font-family: roboto;
+    padding: 2rem;
+    
+    
+}
+
+.profpic img{
+    
+}
+
+.profbtn{
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/profpic.jpg);
+    background-size: cover;
+    border: 2px solid black;
+
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+.txt{
+    color: rgb(242, 227, 242);;
+    font-size: 1.7rem;
+}
+
+.name{
+    color:  rgb(242, 227, 242);
+    font-size: 1.5rem;
+}
+
+.btns{
+    text-align: center;
+}
+.btns a{
+    text-decoration: none;
+    color: #111;
+    
+}
+
+.btns button{
+    background-color: rgb(242, 227, 242);
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 1rem;
+
+}
+.funBtns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.funBtns button{
+    padding: .5rem 1.5rem;
+    border-radius: 20px;
+    margin: 1rem;
+    border: 1px solid black;
+
+    font-weight: bold;
+}
+
+.funBtns :nth-child(1) button{
+    background-color: red;
+}
+
+.funBtns :nth-child(2) button{
+    background-color: lightcyan;
+}
+
+.funBtns :nth-child(3) button{
+    background-color: greenyellow;
+}
+
+.funBtns :nth-child(4) button{
+    background-color: hsl(44, 100%, 50%);
+}
+
+.funBtns :nth-child(5) button{
+    background-color: magenta;
+}
+/* ---------------------------------------------------------------- */
+/* side panel */
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: auto;
+    background-color: rgb(242, 227, 242);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(6, 2, 2);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #710505;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+  
+
+
+/* ---------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 510px){
+    .profile{
+        width: 300px;
+        padding: 1rem;
+    }
+    .profpic img{
+        width: 90px;
+        padding: 1.5rem;
+    }
+    .txt{
+        font-size: 1.5rem;
+    }
+    .funBtns button{
+        padding: .4rem 1rem;
+        border-radius: 20px;
+        margin: .5rem;
+        font-weight: bold;
+
+    }
+    
+
+}

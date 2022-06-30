@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./resources/css/profile.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <title>Office Immersion Experience</title>
+</head>
+<body>
+    <div class="container">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">Status</a>
+            <a href="#">Sign out</a>
+            <a href="#">Notifications</a>
+            <a href="#">Settings</a>
+          </div>
+          
+        <div class="profpic">
+            <button class="openbtn profbtn" onclick="openNav()"></button>                            
+        </div>
+        <div class="txt">
+            <p>Welcome to Accenture's Melbourne office,</p>
+        </div>
+        <div class="name">
+            <p>Tim</p>
+        </div>
+
+        <div class="btns txt">            
+                <button><a href="./collaborate.html">COLLABORATE</a></button>
+        </div>
+        <div class="btns txt">
+                <button> <a href="./socialise.html">SOCIALISE</a></button>
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+                <p>INTEREST GROUPS</p>
+            </div>
+            <div class="funBtns">
+                <a href="#">
+                    <button class="">
+                        Movies
+                        </button>
+                </a>
+                <a href="">
+                    <button>AFL</button>
+                </a>
+                <a href="">
+                    <button>Food</button>
+                </a>
+                <a href="">
+                    <button>Entertainment</button>
+                </a>
+                <a href="">
+                    <button>Bowling</button>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidepanel").style.width = "200px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidepanel").style.width = "0";
+        }
+        </script>
+            
+</body>
+</html>
